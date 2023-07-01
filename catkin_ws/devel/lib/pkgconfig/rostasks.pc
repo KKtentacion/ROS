@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/Project/catkin_ws/devel
+
+Name: rostasks
+Description: Description of rostasks
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
