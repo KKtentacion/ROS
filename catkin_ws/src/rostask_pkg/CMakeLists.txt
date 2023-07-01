@@ -15,6 +15,7 @@ find_package(catkin REQUIRED COMPONENTS
   nav_msgs
   cv_bridge
   image_transport
+  pcl_ros
 )
 
 find_package(OpenCV REQUIRED)
@@ -242,4 +243,5 @@ add_executable(show_point_cloud_node src/show_point_cloud_node.cpp)
 target_link_libraries(show_point_cloud_node
   ${catkin_LIBRARIES}
   ${PCL_LIBS}
+  pcl_visualization
   )

@@ -25,6 +25,8 @@ pcl_ros/transforms.h
 -
 pcl/visualization/cloud_viewer.h
 -
+pcl/visualization/pcl_visualizer.h
+-
 sensor_msgs/PointCloud2.h
 /home/ubuntu/Project/catkin_ws/src/rostask_pkg/src/sensor_msgs/PointCloud2.h
 
