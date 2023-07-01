@@ -3,6 +3,6 @@ prefix=/home/ubuntu/Project/catkin_ws/devel
 Name: rostask_pkg
 Description: Description of rostask_pkg
 Version: 0.0.0
-Cflags: 
+Cflags: -I/home/ubuntu/Project/catkin_ws/src/rostask_pkg/include
 Libs: -L${prefix}/lib 
-Requires: 
+Requires: rosbag roscpp rospy sensor_msgs nav_msgs cv_bridge image_transport

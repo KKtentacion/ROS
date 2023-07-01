@@ -65,4 +65,15 @@ rostask_pkg/CMakeFiles/show_imu_node.dir/src/show_imu_node.cpp.o: /opt/ros/kinet
 rostask_pkg/CMakeFiles/show_imu_node.dir/src/show_imu_node.cpp.o: /opt/ros/kinetic/include/std_msgs/Header.h
 rostask_pkg/CMakeFiles/show_imu_node.dir/src/show_imu_node.cpp.o: /opt/ros/kinetic/include/xmlrpcpp/XmlRpcDecl.h
 rostask_pkg/CMakeFiles/show_imu_node.dir/src/show_imu_node.cpp.o: /opt/ros/kinetic/include/xmlrpcpp/XmlRpcValue.h
+rostask_pkg/CMakeFiles/show_imu_node.dir/src/show_imu_node.cpp.o: /usr/include/x86_64-linux-gnu/bits/select.h
+rostask_pkg/CMakeFiles/show_imu_node.dir/src/show_imu_node.cpp.o: /usr/include/x86_64-linux-gnu/bits/select2.h
+rostask_pkg/CMakeFiles/show_imu_node.dir/src/show_imu_node.cpp.o: /usr/include/x86_64-linux-gnu/bits/sigset.h
+rostask_pkg/CMakeFiles/show_imu_node.dir/src/show_imu_node.cpp.o: /usr/include/x86_64-linux-gnu/bits/time.h
+rostask_pkg/CMakeFiles/show_imu_node.dir/src/show_imu_node.cpp.o: /usr/include/x86_64-linux-gnu/bits/timex.h
+rostask_pkg/CMakeFiles/show_imu_node.dir/src/show_imu_node.cpp.o: /usr/include/x86_64-linux-gnu/bits/types.h
+rostask_pkg/CMakeFiles/show_imu_node.dir/src/show_imu_node.cpp.o: /usr/include/x86_64-linux-gnu/bits/typesizes.h
+rostask_pkg/CMakeFiles/show_imu_node.dir/src/show_imu_node.cpp.o: /usr/include/x86_64-linux-gnu/bits/wordsize.h
+rostask_pkg/CMakeFiles/show_imu_node.dir/src/show_imu_node.cpp.o: /usr/include/x86_64-linux-gnu/sys/select.h
+rostask_pkg/CMakeFiles/show_imu_node.dir/src/show_imu_node.cpp.o: /usr/include/x86_64-linux-gnu/sys/time.h
+rostask_pkg/CMakeFiles/show_imu_node.dir/src/show_imu_node.cpp.o: /usr/include/x86_64-linux-gnu/sys/timeb.h
 

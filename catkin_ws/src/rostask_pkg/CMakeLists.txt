@@ -12,7 +12,13 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   rospy
   sensor_msgs
+  nav_msgs
+  cv_bridge
+  image_transport
 )
+
+find_package(OpenCV REQUIRED)
+find_package(PCL REQUIRED)
 
 ## System dependencies are found with CMake's conventions
 # find_package(Boost REQUIRED COMPONENTS system)
@@ -104,10 +110,10 @@ find_package(catkin REQUIRED COMPONENTS
 ## CATKIN_DEPENDS: catkin_packages dependent projects also need
 ## DEPENDS: system dependencies of this project that dependent projects also need
 catkin_package(
-#  INCLUDE_DIRS include
+ INCLUDE_DIRS include
 #  LIBRARIES rostask_pkg
-#  CATKIN_DEPENDS rosbag roscpp rospy sensor_msgs
-#  DEPENDS system_lib
+ CATKIN_DEPENDS rosbag roscpp rospy sensor_msgs  nav_msgs cv_bridge image_transport
+ DEPENDS system_lib
 )
 
 ###########
@@ -119,6 +125,8 @@ catkin_package(
 include_directories(
 # include
   ${catkin_INCLUDE_DIRS}
+  ${OpenCV_INCLUDE_DIRS}
+  ${PCL_INCLUDE_DIRS}
 )
 
 ## Declare a C++ library
@@ -208,4 +216,30 @@ include_directories(
 add_executable(show_imu_node src/show_imu_node.cpp)
 target_link_libraries(show_imu_node
   ${catkin_LIBRARIES}
+  )
+
+add_executable(show_odom_node src/show_odom_node.cpp)
+target_link_libraries(show_odom_node
+  ${catkin_LIBRARIES}
+  )
+
+add_compile_options(-std=c++11)
+add_executable(show_color_camera_node src/show_color_camera_node.cpp)
+target_link_libraries(show_color_camera_node
+  ${catkin_LIBRARIES}
+  ${OpenCV_LIBS}
+  )
+
+add_compile_options(-std=c++11)
+add_executable(show_depth_camera_node src/show_depth_camera_node.cpp)
+target_link_libraries(show_depth_camera_node
+  ${catkin_LIBRARIES}
+  ${OpenCV_LIBS}
+  )
+
+add_compile_options(-std=c++11)
+add_executable(show_point_cloud_node src/show_point_cloud_node.cpp)
+target_link_libraries(show_point_cloud_node
+  ${catkin_LIBRARIES}
+  ${PCL_LIBS}
   )
