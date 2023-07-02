@@ -16,4 +16,4 @@
 
 5. 项目必须是ROS项目，符合ROS的项目的规范，正确编写CmakeLists.txt等文件；
 
-   实现效果视频链接：[重庆大学明月班ros数据展示系统_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1sz4y1n7Fs/#reply572921475)
+   实现效果视频链接：[ros系统展示_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1PX4y1i7jt/)
