@@ -34,7 +34,7 @@ void LaunchGMapping()
 int main(int argc, char** argv)
 {
     std::thread gm(LaunchGMapping);
-    ros::init(argc, argv, "show_map");
+    ros::init(argc, argv, "show_map_node");
     ros::NodeHandle nodeHandle;
     ros::Subscriber subscriber = nodeHandle.subscribe("/map", 1000, callback);
     ros::spin();

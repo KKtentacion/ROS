@@ -16,4 +16,4 @@
 
 5. 项目必须是ROS项目，符合ROS的项目的规范，正确编写CmakeLists.txt等文件；
 
-   实现效果视频链接：[ROS的奇妙冒险_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV16g4y1A7TR/)
+   实现效果视频链接：[ros系统展示_哔哩哔哩_bilibili](https://www.bilibili.com/video/BV1PX4y1i7jt/)
