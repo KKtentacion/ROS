@@ -245,3 +245,10 @@ target_link_libraries(show_point_cloud_node
   ${PCL_LIBS}
   pcl_visualization
   )
+
+add_compile_options(-std=c++11)
+add_executable(show_map_node src/show_map_node.cpp)
+target_link_libraries(show_map_node
+  ${catkin_LIBRARIES}
+  ${OpenCV_LIBS}
+  )

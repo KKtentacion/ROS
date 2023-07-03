@@ -283,6 +283,19 @@ gtest_main/fast:
 .PHONY : gtest_main/fast
 
 #=============================================================================
+# Target rules for targets named show_map_node
+
+# Build rule for target.
+show_map_node: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 show_map_node
+.PHONY : show_map_node
+
+# fast build rule for target.
+show_map_node/fast:
+	$(MAKE) -f rostask_pkg/CMakeFiles/show_map_node.dir/build.make rostask_pkg/CMakeFiles/show_map_node.dir/build
+.PHONY : show_map_node/fast
+
+#=============================================================================
 # Target rules for targets named show_color_camera_node
 
 # Build rule for target.
@@ -1448,6 +1461,7 @@ help:
 	@echo "... gmock_main"
 	@echo "... gtest"
 	@echo "... gtest_main"
+	@echo "... show_map_node"
 	@echo "... show_color_camera_node"
 	@echo "... show_imu_node"
 	@echo "... tf2_msgs_generate_messages_lisp"

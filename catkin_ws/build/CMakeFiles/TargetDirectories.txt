@@ -30,6 +30,7 @@
 /home/ubuntu/Project/catkin_ws/build/gtest/gtest/CMakeFiles/install/local.dir
 /home/ubuntu/Project/catkin_ws/build/rostask_pkg/CMakeFiles/edit_cache.dir
 /home/ubuntu/Project/catkin_ws/build/rostask_pkg/CMakeFiles/install/local.dir
+/home/ubuntu/Project/catkin_ws/build/rostask_pkg/CMakeFiles/show_map_node.dir
 /home/ubuntu/Project/catkin_ws/build/rostask_pkg/CMakeFiles/show_color_camera_node.dir
 /home/ubuntu/Project/catkin_ws/build/rostask_pkg/CMakeFiles/show_imu_node.dir
 /home/ubuntu/Project/catkin_ws/build/rostask_pkg/CMakeFiles/tf2_msgs_generate_messages_lisp.dir

@@ -166,6 +166,21 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
+rostask_pkg/CMakeFiles/show_map_node.dir/rule:
+	cd /home/ubuntu/Project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rostask_pkg/CMakeFiles/show_map_node.dir/rule
+.PHONY : rostask_pkg/CMakeFiles/show_map_node.dir/rule
+
+# Convenience name for target.
+show_map_node: rostask_pkg/CMakeFiles/show_map_node.dir/rule
+
+.PHONY : show_map_node
+
+# fast build rule for target.
+show_map_node/fast:
+	cd /home/ubuntu/Project/catkin_ws/build && $(MAKE) -f rostask_pkg/CMakeFiles/show_map_node.dir/build.make rostask_pkg/CMakeFiles/show_map_node.dir/build
+.PHONY : show_map_node/fast
+
+# Convenience name for target.
 rostask_pkg/CMakeFiles/show_color_camera_node.dir/rule:
 	cd /home/ubuntu/Project/catkin_ws/build && $(MAKE) -f CMakeFiles/Makefile2 rostask_pkg/CMakeFiles/show_color_camera_node.dir/rule
 .PHONY : rostask_pkg/CMakeFiles/show_color_camera_node.dir/rule
@@ -1566,6 +1581,33 @@ src/show_imu_node.cpp.s:
 	cd /home/ubuntu/Project/catkin_ws/build && $(MAKE) -f rostask_pkg/CMakeFiles/show_imu_node.dir/build.make rostask_pkg/CMakeFiles/show_imu_node.dir/src/show_imu_node.cpp.s
 .PHONY : src/show_imu_node.cpp.s
 
+src/show_map_node.o: src/show_map_node.cpp.o
+
+.PHONY : src/show_map_node.o
+
+# target to build an object file
+src/show_map_node.cpp.o:
+	cd /home/ubuntu/Project/catkin_ws/build && $(MAKE) -f rostask_pkg/CMakeFiles/show_map_node.dir/build.make rostask_pkg/CMakeFiles/show_map_node.dir/src/show_map_node.cpp.o
+.PHONY : src/show_map_node.cpp.o
+
+src/show_map_node.i: src/show_map_node.cpp.i
+
+.PHONY : src/show_map_node.i
+
+# target to preprocess a source file
+src/show_map_node.cpp.i:
+	cd /home/ubuntu/Project/catkin_ws/build && $(MAKE) -f rostask_pkg/CMakeFiles/show_map_node.dir/build.make rostask_pkg/CMakeFiles/show_map_node.dir/src/show_map_node.cpp.i
+.PHONY : src/show_map_node.cpp.i
+
+src/show_map_node.s: src/show_map_node.cpp.s
+
+.PHONY : src/show_map_node.s
+
+# target to generate assembly for a file
+src/show_map_node.cpp.s:
+	cd /home/ubuntu/Project/catkin_ws/build && $(MAKE) -f rostask_pkg/CMakeFiles/show_map_node.dir/build.make rostask_pkg/CMakeFiles/show_map_node.dir/src/show_map_node.cpp.s
+.PHONY : src/show_map_node.cpp.s
+
 src/show_odom_node.o: src/show_odom_node.cpp.o
 
 .PHONY : src/show_odom_node.o
@@ -1628,6 +1670,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... install/local"
+	@echo "... show_map_node"
 	@echo "... show_color_camera_node"
 	@echo "... show_imu_node"
 	@echo "... tf2_msgs_generate_messages_lisp"
@@ -1730,6 +1773,9 @@ help:
 	@echo "... src/show_imu_node.o"
 	@echo "... src/show_imu_node.i"
 	@echo "... src/show_imu_node.s"
+	@echo "... src/show_map_node.o"
+	@echo "... src/show_map_node.i"
+	@echo "... src/show_map_node.s"
 	@echo "... src/show_odom_node.o"
 	@echo "... src/show_odom_node.i"
 	@echo "... src/show_odom_node.s"
